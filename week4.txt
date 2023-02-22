@@ -1,0 +1,43 @@
+1. Which of the following is/are true about modes of operation?
+    A sequence of n messages need at least n calls to a secure PRF for encryption
+    Cipher-text computation is parallelizable in CTR mode.
+    Plain text of any length cannot be encrypted in OFB mode.
+    Stateful variant of Counter mode is secure whereas that of OFB mode is insecure.
+Accepted Answers:
+A sequence of n messages need at least n calls to a secure PRF for encryption
+Cipher-text computation is parallelizable in CTR mode.
+
+2. Select the incorrect option(s) from the following:
+    Assuming all block cipher constructions use secure PRFs, this implies they all are CPA-secure.
+    Assuming secure PRPs are used in their construction, the stateless version of CBC-mode encryption is CPA-secure while the stateful version is not.
+    Assuming secure PRFs are used in their construction, the stateless version of OFB-mode encryption is CPA-secure while the stateful version is not.
+    None of the above.
+Accepted Answers:
+Assuming all block cipher constructions use secure PRFs, this implies they all are CPA-secure.
+Assuming secure PRFs are used in their construction, the stateless version of OFB-mode encryption is CPA-secure while the stateful version is not.
+
+3. Which of the following statement(s) is/are correct?
+    An r-round Subtitution-Permutation network has r rounds of key-mixing, substitution and permutation.
+    S-boxes used in an SPN are always invertible.
+    A 3-round Feistel network is secure whereas a 2-round one is not.
+    Since the components in a Feistel network are not necessarily invertible, the Feistel network is also non-invertible.
+Accepted Answers:
+A 3-round Feistel network is secure whereas a 2-round one is not.
+
+4. Given Fk is a secure PRF, define F′k(x)={Fk(x), if x is evenFk(x+1), if x is odd}. Then which of the following is(are) true?
+    Fk is a not secure PRF  
+    Fk is a secure PRP
+    Fk cannot be used to instantiate the OFB mode of block cipher 
+    Fk can be used to instantiate the CTR mode of block cipher 
+Accepted Answers:
+Fk is a not secure PRF  
+Fk cannot be used to instantiate the OFB mode of block cipher 
+
+5. Let F:{0,1}n×{0,1}n→{0,1}n be a secure PRF. Then which of the following constructions is/are a secure PRF? 
+    F′:{0,1}n×{0,1}2n→{0,1}n where F′k(x||y)=defFk(x)⊕Fk(y)
+    F′:{0,1}n×{0,1}2n→{0,1}2n where F′k(x||y)=defFk(x)||Fk(y)
+    F′:{0,1}n×{0,1}2n→{0,1}n where F′k(x||y)=defFk(x)∧Fk(y)
+    F′:{0,1}n×{0,1}n→{0,1}2n where F′k(x)=defFk(x)||Fk(x⊕1n)
+    None of the above
+Accepted Answers:
+None of the above
