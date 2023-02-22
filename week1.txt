@@ -1,0 +1,41 @@
+1. Which of the following is/are valid condition(s) for a perfectly-secure encryption scheme?
+    Pr[M=m|C=c]=Pr[K=k]
+    Pr[C=c]=Pr[M=m]
+    Pr[M=m|C=c]=Pr[M=m]
+    Pr[C=c|M=m]=Pr[K=k]
+Accepted Answers:
+Pr[M=m|C=c]=Pr[M=m]
+
+2. Consider an instance of shift cipher with the probability distribution over the message space as follows: P[M=a] = 0.3, P[M=b] = 0.3, P[M=c] = 0.4. What is the probability that the ciphertext is ‘D’?
+    2/13
+    1/26
+    3/26
+    Nothing can be said regarding the probability that the ciphertext is “D”
+Accepted Answers:
+1/26
+
+3. Which of the following statement(s) is/are necessarily correct? 
+I) Any encryption scheme with key length less than message length can not be a perfectly-secure scheme. 
+II) Given the one-time pad scheme, the scheme is no longer perfectly-secure if on any subsequent invocation of the key generation algorithm, an earlier key gets re-generated. 
+    I-only
+    II-only
+    Both I and II
+    Neither I nor II
+Accepted Answers:
+I-only
+
+4. A malicious adversary is best modeled in which of the following adversarial models?
+    CPA
+    COA
+    KPA
+    CCA
+Accepted Answers:
+CCA
+
+5. Assume you are given a 300 character encrypted message, encrypted in Vigenère cryptosystem, in which you know the plaintext word CRYPTOGRAPHY occurs exactly two times, and we know that the ciphertext sequence GTMJKGKTOJYQ is the encryption of CRYPTOGRAPHY. The first occurrence starts at character position 18 and second at character position 246 (we start counting from 1). What is the length of the key used for encryption ?
+    5
+    6
+    7
+    8
+Accepted Answers:
+6 
