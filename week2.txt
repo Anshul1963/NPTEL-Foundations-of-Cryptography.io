@@ -1,0 +1,44 @@
+1. Let G be a secure PRG. Then which of the following is/are not a secure PRG?
+    G1(s)=defG(s)||s
+    G2(s)=defG(s)||G(s)
+    G3(s)=defG(s)⊕G(s)
+    G4(s)=defG(s)||x, where x is the parity bit of s and || denotes the concatenation operation
+Accepted Answers:
+G1(s)=defG(s)||s
+G2(s)=defG(s)||G(s)
+G3(s)=defG(s)⊕G(s)
+
+2. Which of the following is(are) true about PRG?
+    A PRG is a randomized algorithm
+    A PRG is a deterministic algorithm
+    We can construct a PRG, which is secure against a computationally unbounded adversary
+    Same seed can be reused
+Accepted Answers:
+A PRG is a deterministic algorithm
+
+3. Which of the following is(are) negligible function(s)?
+    3−n√
+    n−p2∗n−q5, where p and q are integer constants
+    (log(n))−log(n)
+    n−log(n)
+Accepted Answers:
+3−n√
+(log(n))−log(n)
+n−log(n)
+
+4. Difference between perfect security and semantic security involves one or more of the following:
+    In the respective indistinguishability experiment, adversary has the exact same probability of success
+    Bounds on how long the adversary can run the experiment
+    Bounds on the computational capabilities of the adversary
+    All of the above
+Accepted Answers:
+Bounds on how long the adversary can run the experiment
+Bounds on the computational capabilities of the adversary
+
+5. Let cs(s,r), where s∈{0,1}n, be a function defined as cyclic shift of string sby rbits. Define a construction G(s)=cs(s,r1)||cs(s,r2) where r1 and r2 are picked uniformly at random. Which of the following is/are true for this construction?
+    Since the security of the cs(s,r) function is not-known, security of G(s) cannot be determined
+    G(s) is necessarily a PRG
+    An efficient adversary can distinguish between G(s) and a truly random generator with more than a negligible probability
+    None of the above
+Accepted Answers:
+An efficient adversary can distinguish between G(s) and a truly random generator with more than a negligible probability
