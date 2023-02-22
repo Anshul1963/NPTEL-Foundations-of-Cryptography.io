@@ -1,0 +1,45 @@
+1. Which of the following is/are true for One-Way Functions (OWF)?
+    They are randomized functions
+    They are used in the construction of PRG
+    OWF can be a many-to-one function
+    The time complexity to compute the inverse of OWFs is a polynomial function of the security parameter
+Accepted Answers:
+They are used in the construction of PRG
+OWF can be a many-to-one function
+
+2. Select the incorrect option(s) for Trivium cipher:
+    It is a software oriented stream cipher
+    The cipher uses a key as well as an initial vector
+    It is an asynchronous cipher
+    Uses multiple feedback shift registers in non-linear fashion
+Accepted Answers:
+It is a software oriented stream cipher
+It is an asynchronous cipher
+
+3. Which of the following candidates is(are) necessarily secure PRF(s)? In all the following options, Fs(x) is a secure PRF, where x,s∈{0,1}n and output is also an n-bit string.
+    Gs(x)=Fs(x)⊕Fs(x¯)
+    Gs(x)=FFs(x)(x)
+    Gs(x)=F1n(x)||Fs(x)
+    Gs(x)=1||Fs(x), where || denotes the concatenation operation
+Accepted Answers:
+Gs(x)=FFs(x)(x)
+
+4. Let Π=(Gen,Enc,Dec) be a symmetric-key cipher. Then consider a variant Π′=(Gen,Enc′,Dec′) of Π, where Enc′k(m)=Enck(reverse(m)). The steps of Dec′ are performed accordingly. Here reverse(m)denotes the bit string obtained by reversing the order of the bits of m
+    If Π is single-message COA-secure, then Π′ is also single-message COA-secure
+    If Π is single-message COA-secure, then Π′ may not be single-message COA-secure
+    If Π is CPA-secure, then Π′ is also CPA-secure
+    None of the above
+Accepted Answers:
+If Π is single-message COA-secure, then Π′ is also single-message COA-secure
+If Π is CPA-secure, then Π′ is also CPA-secure
+
+5. Which of the following statement(s) is/are correct?
+    A single-message CPA-secure encryption scheme is also a multi-message CPA-secure scheme
+    Secure PRGs can be constructed using secure PRFs and vice-versa
+    Given F is a secure PRF and let s∈{0,1}n and x∈{0,1}n−1, then the construction F′s(x):=Fs(0||x)||Fs(x||1) is a secure PRF
+    A strong PRP is indistinguishable by an efficient adversary from a true random permutation, even in presence of an inverse oracle
+Accepted Answers:
+A single-message CPA-secure encryption scheme is also a multi-message CPA-secure scheme
+Secure PRGs can be constructed using secure PRFs and vice-versa
+A strong PRP is indistinguishable by an efficient adversary from a true random permutation, even in presence of an inverse oracle
+
