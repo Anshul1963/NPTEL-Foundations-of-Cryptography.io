@@ -1,0 +1,53 @@
+1. Select the incorrect option(s) for the Merkle-Damgård transformation:
+    It employs a single-stage approach for the transformation.
+    This construction will always add a padding to the message which depends upon the length of the message.
+    The initial vector (IV) used in this construction has to be fixed.
+    Collision resistance of the transformation is independent of the collision resistance of the compression function used in its construction.
+
+Accepted Answers:
+  It employs a single-stage approach for the transformation.
+  Collision resistance of the transformation is independent of the collision resistance of the compression function used in its construction.
+
+
+2. Choose the incorrect option(s) from the following: 
+    Hash functions can either be used for compression or for expansion, but not both.
+    The probability of finding a collision for a given hash function depends on the domain of the function.
+    We can construct a hash function with zero probability of collision.
+    Hash algorithms can be used in MAC as well as in the generation of PRGs.
+
+Accepted Answers:
+  Hash functions can either be used for compression or for expansion, but not both.
+  We can construct a hash function with zero probability of collision.
+
+
+3. Given Hand G are collision resistant hash functions. Which of these functions is/are collision-resistant?
+    F1(x):=H(x)||G(x)
+    F2(x):=H(x)||1
+    F3(x):=H(x)⊕G(x)
+    None of the above functions.
+
+Accepted Answers:
+  F1(x):=H(x)||G(x)
+  F2(x):=H(x)||1
+
+
+4. Which of the following statement(s) is/are correct?
+    Information theoretic MACs are secure only against an adversary running for polynomial time.
+    Perfect unforgeability is not analogous to perfect secrecy.
+    One-time IT-secure MAC is not analogous to one-time pad used in encryption.
+    In the Ideal-cipher model, only the adversary does not have access to the working of the SPRP used in a given construction.
+
+Accepted Answers:
+  Perfect unforgeability is not analogous to perfect secrecy.
+  One-time IT-secure MAC is not analogous to one-time pad used in encryption.
+
+
+5. Let F:{0,1}n×{0,1}n→{0,1}n be a keyed function and let H:M→{0,1}n  be a function, where M={0,1}≤ℓ, where ℓ is some polynomial function of the security parameter. 
+   Then consider the keyed function F′:{0,1}n×M→{0,1}n, where F′k(m)=Fk(H(m)). Which of the following is/are true?
+      F′ can never be a secure PRF.
+      If F is a secure PRF, then F′ is a secure PRF.
+      If H is collision-resistant, then F′ is a secure PRF.
+      If F is a secure PRF and H is collision-resistant, then F′ is a secure PRF.
+
+Accepted Answers:
+If F  is a secure PRF and H is collision-resistant, then F′ is a secure PRF.
