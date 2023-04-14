@@ -1,1 +1,60 @@
+1. Choose the option(s) that are incorrect for DES:
+    The round function in DES is a substitution-permutation network
+    Block length of 64 bits and a key length of 56 bits are the shortcomings of DES
+    Each S-box defines an 8 to 1 function
+    A 1-bit change to a DES S-box input ensures at most 1-bit change in the output
+    DES is secure against exhaustive search attack.
+    
+Accepted Answers:
+  Each S-box defines an 8 to 1 function
+  A 1-bit change to a DES S-box input ensures at most 1-bit change in the output
+  DES is secure against exhaustive search attack.
+  
+  
+2. Choose the option(s) that are correct for AES:
+    AES block cipher has a 128-bit block length and uses a 128-bit key
+    AES is not a substitution-permutation network
+    The S-box function in the SubBytes operation is a bijective function
+    AES block cipher is not proven to be secure against computational adversary
 
+Accepted Answers:
+  The S-box function in the SubBytes operation is a bijective function
+  AES block cipher is not proven to be secure against computational adversary
+  
+  
+3. Consider the following encryption schemes.  Which of the following option(s) is/are not true for the given encryption schemes?
+	I)  Given F is a secure PRP.  Choose a key k∈{0,1}n at random. To encrypt m∈{0,1}n/2, the cipher text is c=Fk(m||r) where r∈{0,1}n/2 is a random bit string (|| denotes concatenation of strings).  The decryption function outputs m, where m||r:=F−1k(c).
+	II)  Given F is a secure PRF.  Choose a key k∈{0,1}n at random. To encrypt m∈{0,1}n, the cipher text is (r,c=m⊕FFk(r)(r)) where r∈{0,1}n is a random bit string.      The decryption is m:=c⊕FFk(r)(r).
+  
+  I and II are CCA secure encryption schemes
+  I is CPA secure and II is CCA secure
+  I is CCA secure and II is CPA secure
+  Both I and II are not CPA secure encryption schemes
+  None of the above
+
+Accepted Answers:
+  I and II are CCA secure encryption schemes
+  I is CPA secure and II is CCA secure
+  Both I and II are not CPA secure encryption schemes
+  
+  
+4. Select the correct option(s) with respect to Message Authentication Code (MAC):
+    The tag verification algorithm must be randomized.
+    MAC for fixed-length messages constructed using PRF is SCMA secure.
+    Head of Organization sending a broadcast e-mail to employees is an example application that requires encryption and not authentication.
+    Streaming MAC is the one which does not require the length of the message known in advance.
+
+Accepted Answers:
+MAC for fixed-length messages constructed using PRF is SCMA secure.
+Streaming MAC is the one which does not require the length of the message known in advance.
+
+
+5. Which of the following is/are not true about Message Authentication Codes?
+    CBC MAC can be used to generate tag for only fixed length messages.
+    Block-wise CBC MAC initialized with IV=1n, instead of IV being the number of message blocks will be secure
+    A secure MAC does not maintain the privacy of the underlying message
+    All of the above
+
+Accepted Answers:
+  CBC MAC can be used to generate tag for only fixed length messages.
+  Block-wise CBC MAC initialized with IV=1n, instead of IV being the number of message blocks will be secure
